@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="440" viewBox="0 0 1100 440" font-family="DejaVu Sans, system-ui, sans-serif">
+  <rect width="1100" height="440" fill="#fcfcfb"/>
+
+  <text x="40" y="52" font-size="26" font-weight="bold" fill="#0b0b0b">Two questions that sound alike and are not</text>
+  <text x="40" y="82" font-size="14.5" fill="#898781">Most agent + software-engineering surveys answer the left one. This survey answers the right one.</text>
+
+  <!-- LEFT PANEL -->
+  <rect x="40" y="110" width="480" height="280" rx="14" fill="#ffffff" stroke="#e1e0d9" stroke-width="2"/>
+  <rect x="40" y="110" width="480" height="6" rx="3" fill="#898781"/>
+  <text x="68" y="152" font-size="13" font-weight="bold" fill="#898781" letter-spacing="1.5">THE WELL-TRODDEN QUESTION</text>
+  <text x="68" y="190" font-size="25" font-weight="bold" fill="#0b0b0b">Agents <tspan fill="#eb6834">for</tspan> software</text>
+  <text x="68" y="222" font-size="25" font-weight="bold" fill="#0b0b0b">engineering</text>
+  <text x="68" y="262" font-size="15" fill="#52514e">&#8220;Can an agent fix this GitHub issue,</text>
+  <text x="68" y="286" font-size="15" fill="#52514e">write these tests, review this diff?&#8221;</text>
+
+  <rect x="68" y="310" width="424" height="56" rx="10" fill="#f6f5f1"/>
+  <text x="88" y="334" font-size="13.5" fill="#52514e">System under study: <tspan font-weight="bold" fill="#0b0b0b">your codebase</tspan></text>
+  <text x="88" y="356" font-size="13.5" fill="#52514e">The agent is the <tspan font-weight="bold" fill="#0b0b0b">tool</tspan></text>
+
+  <!-- ARROW -->
+  <g transform="translate(548,240)">
+    <circle cx="0" cy="0" r="26" fill="#eb6834"/>
+    <path d="M -9 0 L 7 0 M 1 -7 L 8 0 L 1 7" stroke="#ffffff" stroke-width="2.6" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <text x="548" y="292" font-size="12.5" fill="#898781" text-anchor="middle">flip it</text>
+
+  <!-- RIGHT PANEL -->
+  <rect x="600" y="110" width="460" height="280" rx="14" fill="#ffffff" stroke="#2a78d6" stroke-width="2"/>
+  <rect x="600" y="110" width="460" height="6" rx="3" fill="#2a78d6"/>
+  <text x="628" y="152" font-size="13" font-weight="bold" fill="#2a78d6" letter-spacing="1.5">THIS SURVEY&#8217;S QUESTION</text>
+  <text x="628" y="190" font-size="25" font-weight="bold" fill="#0b0b0b">Software engineering</text>
+  <text x="628" y="222" font-size="25" font-weight="bold" fill="#0b0b0b"><tspan fill="#2a78d6">for</tspan> agents</text>
+  <text x="628" y="262" font-size="15" fill="#52514e">&#8220;How do you specify, design, build,</text>
+  <text x="628" y="286" font-size="15" fill="#52514e">test and maintain the agent itself?&#8221;</text>
+
+  <rect x="628" y="310" width="404" height="56" rx="10" fill="#eef5fd"/>
+  <text x="648" y="334" font-size="13.5" fill="#52514e">System under study: <tspan font-weight="bold" fill="#0b0b0b">the agent</tspan></text>
+  <text x="648" y="356" font-size="13.5" fill="#52514e">The agent is the <tspan font-weight="bold" fill="#0b0b0b">product</tspan></text>
+
+  <text x="40" y="424" font-size="11.5" fill="#898781">Framing after Ge et al., &#8220;Software Engineering for LLM-Based Agents: A Lifecycle-Oriented Survey&#8221;, arXiv:2611.23260</text>
+</svg>

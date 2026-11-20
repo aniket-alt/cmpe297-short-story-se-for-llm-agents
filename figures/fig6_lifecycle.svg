@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="520" viewBox="0 0 1280 520" font-family="DejaVu Sans, system-ui, sans-serif">
+  <rect width="1280" height="520" fill="#fcfcfb"/>
+
+  <text x="40" y="50" font-size="26" font-weight="bold" fill="#0b0b0b">The five-stage taxonomy</text>
+  <text x="40" y="80" font-size="14.5" fill="#898781">Each stage is defined by the engineering concerns the survey searched for &#8212; and by how much research it found there.</text>
+
+  <line x1="110" y1="150" x2="1090" y2="150" stroke="#e1e0d9" stroke-width="3"/>
+
+  <!-- 1 RE -->
+  <circle cx="110" cy="150" r="20" fill="#eb6834"/>
+  <text x="110" y="156" font-size="15" font-weight="bold" fill="#ffffff" text-anchor="middle">1</text>
+  <text x="66" y="200" font-size="16" font-weight="bold" fill="#0b0b0b">Requirements</text>
+  <text x="66" y="220" font-size="16" font-weight="bold" fill="#0b0b0b">Engineering</text>
+  <text x="66" y="248" font-size="13.5" fill="#eb6834" font-weight="bold">26 papers</text>
+  <text x="66" y="282" font-size="13" fill="#52514e"><tspan x="66" dy="0">Intended behaviour,</tspan><tspan x="66" dy="19">constraints and</tspan><tspan x="66" dy="19">acceptance conditions.</tspan><tspan x="66" dy="19">Stakeholder elicitation;</tspan><tspan x="66" dy="19">action boundaries.</tspan></text>
+
+  <!-- 2 A&D -->
+  <circle cx="355" cy="150" r="20" fill="#2a78d6"/>
+  <text x="355" y="156" font-size="15" font-weight="bold" fill="#ffffff" text-anchor="middle">2</text>
+  <text x="311" y="200" font-size="16" font-weight="bold" fill="#0b0b0b">Architecture</text>
+  <text x="311" y="220" font-size="16" font-weight="bold" fill="#0b0b0b">&amp; Design</text>
+  <text x="311" y="248" font-size="13.5" fill="#2a78d6" font-weight="bold">127 papers</text>
+  <text x="311" y="282" font-size="13" fill="#52514e"><tspan x="311" dy="0">Decomposition,</tspan><tspan x="311" dy="19">responsibilities, interfaces,</tspan><tspan x="311" dy="19">contracts, interaction</tspan><tspan x="311" dy="19">topology, reference</tspan><tspan x="311" dy="19">architectures, patterns.</tspan></text>
+
+  <!-- 3 I&I -->
+  <circle cx="600" cy="150" r="20" fill="#2a78d6"/>
+  <text x="600" y="156" font-size="15" font-weight="bold" fill="#ffffff" text-anchor="middle">3</text>
+  <text x="556" y="200" font-size="16" font-weight="bold" fill="#0b0b0b">Implementation</text>
+  <text x="556" y="220" font-size="16" font-weight="bold" fill="#0b0b0b">&amp; Integration</text>
+  <text x="556" y="248" font-size="13.5" fill="#2a78d6" font-weight="bold">76 papers</text>
+  <text x="556" y="282" font-size="13" fill="#52514e"><tspan x="556" dy="0">Frameworks, SDKs,</tspan><tspan x="556" dy="19">harnesses, protocols,</tspan><tspan x="556" dy="19">orchestration, tool and</tspan><tspan x="556" dy="19">environment integration,</tspan><tspan x="556" dy="19">configuration, debugging.</tspan></text>
+
+  <!-- 4 T&A -->
+  <circle cx="845" cy="150" r="20" fill="#184f95"/>
+  <text x="845" y="156" font-size="15" font-weight="bold" fill="#ffffff" text-anchor="middle">4</text>
+  <text x="801" y="200" font-size="16" font-weight="bold" fill="#0b0b0b">Testing</text>
+  <text x="801" y="220" font-size="16" font-weight="bold" fill="#0b0b0b">&amp; Assurance</text>
+  <text x="801" y="248" font-size="13.5" fill="#184f95" font-weight="bold">215 papers</text>
+  <text x="801" y="282" font-size="13" fill="#52514e"><tspan x="801" dy="0">Test models, generation,</tspan><tspan x="801" dy="19">oracles, coverage,</tspan><tspan x="801" dy="19">benchmarks, verification,</tspan><tspan x="801" dy="19">reliability, safety, failure</tspan><tspan x="801" dy="19">diagnosis, regression.</tspan></text>
+
+  <!-- 5 M&E -->
+  <circle cx="1090" cy="150" r="20" fill="#2a78d6"/>
+  <text x="1090" y="156" font-size="15" font-weight="bold" fill="#ffffff" text-anchor="middle">5</text>
+  <text x="1046" y="200" font-size="16" font-weight="bold" fill="#0b0b0b">Maintenance</text>
+  <text x="1046" y="220" font-size="16" font-weight="bold" fill="#0b0b0b">&amp; Evolution</text>
+  <text x="1046" y="248" font-size="13.5" fill="#2a78d6" font-weight="bold">49 papers</text>
+  <text x="1046" y="282" font-size="13" fill="#52514e"><tspan x="1046" dy="0">Deployment,</tspan><tspan x="1046" dy="19">observability, monitoring,</tspan><tspan x="1046" dy="19">incident analysis, repair,</tspan><tspan x="1046" dy="19">rollback, version</tspan><tspan x="1046" dy="19">management.</tspan></text>
+
+  <rect x="40" y="420" width="1200" height="48" rx="10" fill="#fdf0ea"/>
+  <text x="62" y="450" font-size="14.5" fill="#52514e">The shape of the field: <tspan font-weight="bold" fill="#0b0b0b">the middle is crowded, both ends are thin.</tspan> Roughly eight times as much work on testing agents as on specifying them.</text>
+
+  <text x="40" y="498" font-size="11.5" fill="#898781">Stage definitions and counts from Ge et al., arXiv:2611.23260 (355-paper corpus)</text>
+</svg>
