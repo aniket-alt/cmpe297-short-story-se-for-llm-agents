@@ -12,7 +12,7 @@ A short story on **_Software Engineering for LLM-Based Agents: A Lifecycle-Orien
 
 | Deliverable | Link |
 |---|---|
-| **Medium article** | `<paste published Medium URL here>` |
+| **Medium article** | `https://medium.com/@aniketanil.naik/we-spent-two-years-teaching-agents-to-build-software-nobody-taught-us-to-build-agents-7bf16c0048df` |
 | **SlideShare deck** | `<paste SlideShare URL here>` |
 | **YouTube video** (15+ min) | `<paste YouTube URL here>` |
 | **GitHub repo** (this directory) | `<paste public GitHub URL here>` |
