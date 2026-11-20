@@ -1,7 +1,7 @@
 # Short Story — Software Engineering for LLM-Based Agents
 
 **CMPE 297 · Short Story Assignment (individual)**
-**Author:** `<your name>`
+**Author:** Aniket Anil Naik
 **Term:** Fall 2026
 
 A short story on **_Software Engineering for LLM-Based Agents: A Lifecycle-Oriented Survey_** — a 79-page, 355-paper survey that inverts the question most agent research asks. Instead of *what can agents do for software engineering*, it asks *what does it take to engineer the agent itself*, and then grades how well the field's claims are actually supported.
